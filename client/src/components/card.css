@@ -1,0 +1,35 @@
+.cards{
+    margin: 2rem 1rem;
+}
+.card{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-shadow: 10px 5px 2px grey;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: 20px 10px 4px grey;
+}
+.card img{
+    height: 203px;
+    width: 254px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+button{
+    width: 10rem;
+    justify-content: center;
+    border: 1px solid black;
+  border-radius: 25px;
+    box-shadow:5px 2.5px 1px grey; 
+    transition: .1;
+
+}
+button:hover{
+    box-shadow: 10px 5px 2px grey; 
+}

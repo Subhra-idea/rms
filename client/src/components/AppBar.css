@@ -1,0 +1,27 @@
+.Appbar-container {
+  margin-top: 20px;
+  position: static;
+
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.Appbar {
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px grey;
+}
+.memory-img {
+  width: 5rem;
+  height: 4rem;
+}
+
+
+
